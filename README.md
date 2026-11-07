@@ -4,7 +4,7 @@
 
 ![tests](https://img.shields.io/badge/tests-33%20passing-brightgreen) ![python](https://img.shields.io/badge/python-3.11%2B-blue) ![model](https://img.shields.io/badge/model-XGBoost-orange)
 
-<!-- After deploying: add your live dashboard link here -->
+**🔴 Live dashboard: [vayucast.streamlit.app](https://vayucast.streamlit.app)**
 
 ---
 
