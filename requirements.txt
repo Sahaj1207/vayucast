@@ -1,0 +1,19 @@
+# What the app needs to run: data pipeline, training, API and dashboard.
+# Streamlit Community Cloud installs this file automatically.
+
+# The saved model was trained with these exact versions. Loading it with
+# different versions can break, so they are pinned.
+scikit-learn==1.9.1
+xgboost==3.4.1
+
+numpy>=2.0
+pandas>=2.2
+requests>=2.31
+chardet<6               # stops a harmless warning from requests
+joblib>=1.4
+matplotlib>=3.8
+shap>=0.45
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.35
+altair>=5.0

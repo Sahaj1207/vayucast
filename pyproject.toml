@@ -1,0 +1,10 @@
+[project]
+name = "vayucast"
+version = "1.0.0"
+description = "Air-quality (Indian AQI) forecasting for Indian cities with machine learning"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning"]

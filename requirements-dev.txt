@@ -1,0 +1,6 @@
+# Everything in requirements.txt, plus tools for development
+-r requirements.txt
+mlflow>=2.12            # experiment tracking (optional — training works without it)
+jupyter>=1.0            # notebooks
+pytest>=8.0             # tests
+httpx>=0.27             # needed by FastAPI's test client

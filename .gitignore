@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw hourly data is big and can be re-downloaded with: python -m src.fetch_data
+data/raw/
+
+# MLflow experiment tracking (local only)
+mlruns/
+mlruns.db
+mlartifacts/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

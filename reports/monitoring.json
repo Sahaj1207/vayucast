@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-07T06:50:41+00:00",
+  "status": "ok",
+  "problems": [],
+  "test_mae_1day": 15.789,
+  "live_performance": {
+    "n_scored": 0,
+    "note": "No forecast has reached its day yet \u2014 check back tomorrow."
+  },
+  "drift": [
+    {
+      "feature": "aqi_today",
+      "shift_vs_normal_season": 0.0,
+      "status": "normal",
+      "psi": 0.303,
+      "psi_normal_max": 0.31
+    },
+    {
+      "feature": "pm2_5_today",
+      "shift_vs_normal_season": 0.0,
+      "status": "normal",
+      "psi": 0.345,
+      "psi_normal_max": 0.316
+    },
+    {
+      "feature": "pm10_today",
+      "shift_vs_normal_season": -0.22,
+      "status": "normal",
+      "psi": 0.333,
+      "psi_normal_max": 0.81
+    },
+    {
+      "feature": "temperature_today",
+      "shift_vs_normal_season": 1.7,
+      "status": "unusual",
+      "psi": 1.67,
+      "psi_normal_max": 3.132
+    },
+    {
+      "feature": "humidity_today",
+      "shift_vs_normal_season": -0.73,
+      "status": "normal",
+      "psi": 0.575,
+      "psi_normal_max": 1.367
+    },
+    {
+      "feature": "wind_speed_today",
+      "shift_vs_normal_season": -0.35,
+      "status": "normal",
+      "psi": 0.162,
+      "psi_normal_max": 0.312
+    },
+    {
+      "feature": "rain_today",
+      "shift_vs_normal_season": -0.19,
+      "status": "normal",
+      "psi": 0.13,
+      "psi_normal_max": 0.418
+    },
+    {
+      "feature": "pressure_today",
+      "shift_vs_normal_season": 0.95,
+      "status": "normal",
+      "psi": 1.792,
+      "psi_normal_max": 1.929
+    }
+  ]
+}
