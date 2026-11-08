@@ -1,145 +1,145 @@
 {
   "chosen_model": "xgboost",
-  "trained_at": "2026-11-07T06:48:12+00:00",
+  "trained_at": "2026-11-08T08:59:14+00:00",
   "data_range": [
     "2022-08-04",
-    "2026-10-31"
+    "2026-11-01"
   ],
-  "test_period_start": "2025-11-01",
+  "test_period_start": "2025-11-02",
   "n_features": 54,
   "cv_mae_by_model": {
-    "ridge": 22.1,
-    "random_forest": 20.5,
-    "xgboost": 20.07
+    "ridge": 22.06,
+    "random_forest": 20.48,
+    "xgboost": 20.09
   },
   "test": {
     "1": {
-      "mae": 15.789,
-      "rmse": 30.407,
+      "mae": 15.771,
+      "rmse": 30.348,
       "r2": 0.883,
-      "category_accuracy": 0.779,
-      "interval_coverage": 0.763
+      "category_accuracy": 0.782,
+      "interval_coverage": 0.761
     },
     "2": {
-      "mae": 21.278,
-      "rmse": 38.877,
-      "r2": 0.808,
-      "category_accuracy": 0.721,
-      "interval_coverage": 0.742
+      "mae": 21.2,
+      "rmse": 38.586,
+      "r2": 0.811,
+      "category_accuracy": 0.72,
+      "interval_coverage": 0.743
     },
     "3": {
-      "mae": 23.056,
-      "rmse": 41.166,
-      "r2": 0.785,
-      "category_accuracy": 0.684,
-      "interval_coverage": 0.73
+      "mae": 22.785,
+      "rmse": 40.848,
+      "r2": 0.788,
+      "category_accuracy": 0.686,
+      "interval_coverage": 0.728
     }
   },
   "improvement_vs_persistence_pct": {
-    "1": 16.0,
-    "2": 22.4,
-    "3": 27.6
+    "1": 16.2,
+    "2": 22.8,
+    "3": 28.4
   },
   "mae_by_city_1day": {
-    "Belagavi": 7.3,
-    "Bengaluru": 7.54,
-    "Delhi": 49.47,
-    "Hyderabad": 9.85,
-    "Kolhapur": 8.9,
-    "Kurnool": 8.41,
-    "Lucknow": 27.79,
-    "Mumbai": 14.24,
-    "Pune": 8.6
+    "Belagavi": 7.38,
+    "Bengaluru": 7.51,
+    "Delhi": 49.57,
+    "Hyderabad": 9.84,
+    "Kolhapur": 8.95,
+    "Kurnool": 8.49,
+    "Lucknow": 27.67,
+    "Mumbai": 14.11,
+    "Pune": 8.42
   },
   "leakage_demo": {
-    "shuffled_kfold_mae": 12.14,
+    "shuffled_kfold_mae": 12.17,
     "time_based_mae": 15.83
   },
   "shap": {
     "overall_top": {
-      "aqi_1d_ago": 4.599999904632568,
-      "pm2_5_today": 4.03000020980835,
-      "wind_speed_target_day": 4.019999980926514,
-      "aqi_today": 3.8399999141693115,
-      "aqi_mean_30d": 2.1500000953674316,
-      "wind_change": 2.119999885559082,
-      "rain_target_day": 1.6200000047683716,
-      "pm10_today": 1.2699999809265137,
-      "pressure_today": 1.149999976158142,
-      "humidity_today": 1.100000023841858
+      "aqi_1d_ago": 4.440000057220459,
+      "aqi_today": 4.190000057220459,
+      "pm2_5_today": 4.110000133514404,
+      "wind_speed_target_day": 4.059999942779541,
+      "aqi_mean_30d": 2.3499999046325684,
+      "wind_change": 2.240000009536743,
+      "rain_target_day": 1.7599999904632568,
+      "pm10_today": 1.159999966621399,
+      "pressure_today": 1.1200000047683716,
+      "aqi_mean_3d": 1.059999942779541
     },
     "by_city": {
       "belagavi": {
-        "aqi_1d_ago": 3.0299999713897705,
-        "wind_speed_target_day": 2.6500000953674316,
-        "pm2_5_today": 2.0399999618530273,
-        "aqi_today": 1.850000023841858,
-        "wind_change": 1.5199999809265137,
-        "rain_target_day": 1.3899999856948853
+        "aqi_1d_ago": 2.9100000858306885,
+        "wind_speed_target_day": 2.680000066757202,
+        "pm2_5_today": 2.0899999141693115,
+        "aqi_today": 1.9299999475479126,
+        "wind_change": 1.5399999618530273,
+        "rain_target_day": 1.4800000190734863
       },
       "kolhapur": {
-        "aqi_1d_ago": 3.5399999618530273,
-        "wind_speed_target_day": 2.7699999809265137,
-        "pm2_5_today": 2.1500000953674316,
-        "aqi_today": 1.7100000381469727,
-        "wind_change": 1.5299999713897705,
-        "rain_target_day": 1.409999966621399
+        "aqi_1d_ago": 3.380000114440918,
+        "wind_speed_target_day": 2.809999942779541,
+        "pm2_5_today": 2.2100000381469727,
+        "aqi_today": 1.9900000095367432,
+        "wind_change": 1.5499999523162842,
+        "rain_target_day": 1.4800000190734863
       },
       "pune": {
-        "wind_speed_target_day": 3.819999933242798,
-        "aqi_1d_ago": 3.430000066757202,
-        "pm2_5_today": 2.2899999618530273,
-        "aqi_today": 1.7300000190734863,
-        "rain_target_day": 1.409999966621399,
-        "wind_change": 1.350000023841858
+        "wind_speed_target_day": 3.759999990463257,
+        "aqi_1d_ago": 3.1700000762939453,
+        "pm2_5_today": 2.390000104904175,
+        "aqi_today": 1.9900000095367432,
+        "rain_target_day": 1.5099999904632568,
+        "wind_change": 1.4299999475479126
       },
       "mumbai": {
-        "aqi_1d_ago": 4.320000171661377,
-        "pm2_5_today": 3.759999990463257,
-        "pressure_today": 3.009999990463257,
-        "wind_speed_target_day": 2.9000000953674316,
-        "aqi_today": 2.4700000286102295,
-        "wind_change": 2.059999942779541
+        "aqi_1d_ago": 4.059999942779541,
+        "pm2_5_today": 3.940000057220459,
+        "wind_speed_target_day": 3.0399999618530273,
+        "pressure_today": 2.9800000190734863,
+        "aqi_today": 2.7100000381469727,
+        "wind_change": 1.9199999570846558
       },
       "bengaluru": {
-        "aqi_1d_ago": 3.109999895095825,
-        "wind_speed_target_day": 2.5899999141693115,
-        "pm2_5_today": 1.940000057220459,
-        "aqi_today": 1.7599999904632568,
+        "aqi_1d_ago": 2.930000066757202,
+        "wind_speed_target_day": 2.569999933242798,
+        "pm2_5_today": 2.009999990463257,
+        "aqi_today": 1.8700000047683716,
         "wind_change": 1.5099999904632568,
-        "rain_target_day": 1.4600000381469727
+        "rain_target_day": 1.4700000286102295
       },
       "hyderabad": {
-        "wind_speed_target_day": 3.3399999141693115,
-        "aqi_1d_ago": 3.0399999618530273,
-        "pm2_5_today": 2.0399999618530273,
-        "aqi_today": 1.6100000143051147,
-        "wind_change": 1.5,
-        "rain_target_day": 1.2599999904632568
+        "wind_speed_target_day": 3.380000114440918,
+        "aqi_1d_ago": 2.9200000762939453,
+        "pm2_5_today": 2.0899999141693115,
+        "aqi_today": 1.7699999809265137,
+        "wind_change": 1.4199999570846558,
+        "rain_target_day": 1.340000033378601
       },
       "kurnool": {
-        "aqi_1d_ago": 3.0899999141693115,
-        "wind_speed_target_day": 2.5399999618530273,
-        "pm2_5_today": 1.9700000286102295,
-        "aqi_today": 1.7300000190734863,
-        "wind_change": 1.440000057220459,
+        "aqi_1d_ago": 3.059999942779541,
+        "wind_speed_target_day": 2.549999952316284,
+        "pm2_5_today": 2.0299999713897705,
+        "aqi_today": 1.7999999523162842,
+        "wind_change": 1.4800000190734863,
         "rain_target_day": 1.1699999570846558
       },
       "lucknow": {
-        "pm2_5_today": 7.78000020980835,
-        "aqi_1d_ago": 7.159999847412109,
-        "wind_speed_target_day": 6.610000133514404,
-        "aqi_today": 6.300000190734863,
-        "aqi_mean_30d": 4.5,
-        "wind_change": 3.4000000953674316
+        "pm2_5_today": 8.220000267028809,
+        "aqi_1d_ago": 6.75,
+        "aqi_today": 6.550000190734863,
+        "wind_speed_target_day": 6.420000076293945,
+        "aqi_mean_30d": 4.889999866485596,
+        "wind_change": 3.799999952316284
       },
       "delhi": {
-        "aqi_today": 15.430000305175781,
-        "pm2_5_today": 12.289999961853027,
-        "aqi_1d_ago": 10.630000114440918,
-        "wind_speed_target_day": 8.960000038146973,
-        "aqi_mean_30d": 6.559999942779541,
-        "wind_change": 4.739999771118164
+        "aqi_today": 17.06999969482422,
+        "pm2_5_today": 12.010000228881836,
+        "aqi_1d_ago": 10.800000190734863,
+        "wind_speed_target_day": 9.289999961853027,
+        "aqi_mean_30d": 7.389999866485596,
+        "wind_change": 5.489999771118164
       }
     }
   }
