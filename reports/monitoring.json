@@ -1,68 +1,72 @@
 {
-  "checked_at": "2026-11-07T07:06:32+00:00",
+  "checked_at": "2026-11-08T07:53:20+00:00",
   "status": "ok",
   "problems": [],
   "test_mae_1day": 15.789,
   "live_performance": {
-    "n_scored": 0,
-    "note": "No forecast has reached its day yet \u2014 check back tomorrow."
+    "n_scored": 9,
+    "mae_1day": 26.78,
+    "mae_by_days_ahead": {
+      "1": 26.78
+    },
+    "range_coverage": 0.556
   },
   "drift": [
     {
       "feature": "aqi_today",
-      "shift_vs_normal_season": 0.0,
+      "shift_vs_normal_season": -0.02,
       "status": "normal",
-      "psi": 0.303,
-      "psi_normal_max": 0.31
+      "psi": 0.281,
+      "psi_normal_max": 0.349
     },
     {
       "feature": "pm2_5_today",
-      "shift_vs_normal_season": 0.0,
+      "shift_vs_normal_season": -0.02,
       "status": "normal",
-      "psi": 0.345,
-      "psi_normal_max": 0.316
+      "psi": 0.34,
+      "psi_normal_max": 0.329
     },
     {
       "feature": "pm10_today",
-      "shift_vs_normal_season": -0.22,
+      "shift_vs_normal_season": -0.24,
       "status": "normal",
-      "psi": 0.333,
-      "psi_normal_max": 0.81
+      "psi": 0.337,
+      "psi_normal_max": 0.713
     },
     {
       "feature": "temperature_today",
-      "shift_vs_normal_season": 1.7,
+      "shift_vs_normal_season": 1.66,
       "status": "unusual",
-      "psi": 1.67,
-      "psi_normal_max": 3.132
+      "psi": 1.716,
+      "psi_normal_max": 3.053
     },
     {
       "feature": "humidity_today",
-      "shift_vs_normal_season": -0.73,
+      "shift_vs_normal_season": -0.7,
       "status": "normal",
-      "psi": 0.575,
-      "psi_normal_max": 1.367
+      "psi": 0.632,
+      "psi_normal_max": 1.211
     },
     {
       "feature": "wind_speed_today",
-      "shift_vs_normal_season": -0.35,
+      "shift_vs_normal_season": -0.32,
       "status": "normal",
-      "psi": 0.162,
-      "psi_normal_max": 0.312
+      "psi": 0.141,
+      "psi_normal_max": 0.342
     },
     {
       "feature": "rain_today",
-      "shift_vs_normal_season": -0.19,
+      "shift_vs_normal_season": -0.17,
       "status": "normal",
-      "psi": 0.13,
-      "psi_normal_max": 0.418
+      "psi": 0.106,
+      "psi_normal_max": 0.338
     },
     {
       "feature": "pressure_today",
-      "shift_vs_normal_season": 0.95,
+      "shift_vs_normal_season": 0.91,
       "status": "normal",
-      "psi": 1.792,
-      "psi_normal_max": 1.929
+      "psi": 1.687,
+      "psi_normal_max": 1.946
     }
   ]
 }
